@@ -18,7 +18,7 @@ def linear_search_ui(numbers, target):
             # Check if current element matches target
             if arr[i] == target:
                 steps += f"\n✅ Found {target} at index {i}"
-                return f"Found at index {i}"
+                return steps
 
         # If loop finishes w/o finding target
         steps += f"\n❌ {target} not found in the list"
@@ -43,7 +43,7 @@ with gr.Blocks() as demo:
     #Output
     output = gr.Textbox(
         label="Search Steps",
-        lines=10
+        lines=3
     )
 
     btn = gr.Button("Search")
