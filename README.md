@@ -121,8 +121,7 @@ These tests confirm that the algorithm behaves correctly and handles edge cases.
 
 ## Hugging Face Deployment
 
-You can access the live app here:
-👉 https://huggingface.co/spaces/LukasChin-Queens/CISC121Project
+You can access the live app here: https://huggingface.co/spaces/LukasChin-Queens/CISC121Project
 
 ---
 
