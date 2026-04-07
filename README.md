@@ -1,6 +1,4 @@
-# cisc121project
-CISC121 Project
-# 🔍 Linear Search Visualizer
+# Linear Search Visualizer for CISC121 final project
 
 ## Demo
 
