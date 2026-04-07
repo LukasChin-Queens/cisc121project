@@ -43,7 +43,7 @@ with gr.Blocks() as demo:
     #Output
     output = gr.Textbox(
         label="Search Steps",
-        lines=3
+        lines=7
     )
 
     btn = gr.Button("Search")
