@@ -5,6 +5,18 @@
 Here is my app showing step-by-step linear search
 <img width="2022" height="1057" alt="image" src="https://github.com/user-attachments/assets/35a03251-9293-40d6-91b7-b7bf17ea3fff" />
 
+I chose to implement linear search because it is one of the simplest and most intuitive algorithms to understand. It clearly demonstrates how a computer checks elements one by one, making it a great starting point for learning algorithm design and computational thinking.
+
+The linear search algorithm, given a list and a target value, is performed as follows:
+
+* Start at the first element of the list
+* Compare the current element to the target value
+* If the current element matches the target, return its index
+* If it does not match, move to the next element
+* Repeat this process for each element in the list
+* If the end of the list is reached without finding the target, return that the value is not found
+
+In this project, the algorithm is enhanced by displaying each step of the process. This allows users to see exactly how the search progresses through the list, making the algorithm easier to understand and visualize.
 
 ---
 
@@ -42,8 +54,8 @@ This simplifies the complexity while still demonstrating the key idea of linear 
 
    * Display which index is being checked
    * Compare the value with the target
-5. If found → return index and steps
-6. If not found → return "not found" message
+5. If found -> return index and steps
+6. If not found -> return "not found" message
 
 ---
 
@@ -82,11 +94,11 @@ The interface is built using Gradio and is designed to be simple, clear, and edu
 The application was tested using multiple scenarios:
 
 * Target exists in the list
-  Example: `1, 5, 3, 9` → target `3`
+  Example: `1, 5, 3, 9` -> target `3`
   Output shows step-by-step checks and returns `Found at index 2`
 
 * Target does not exist
-  Example: `1, 5, 3, 9` → target `7`
+  Example: `1, 5, 3, 9` -> target `7`
   Output shows all steps and returns `Not found`
 
 * Invalid input
@@ -116,11 +128,11 @@ You can access the live app here:
 
 ## Author
 
-Your Name
+Lukas Chin
 
 ---
 
 ## Acknowledgment
 
 This project was developed for CISC-121.
-Some guidance and structure were supported using AI tools for learning purposes.
+The implementation was in part coded by OpenAI's ChatGPT 5.3 using prompts based on this README.
